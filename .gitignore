@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+*.local.json
+shanbay_snapshot*.json
+*state*.json
+*.log
+*.zip
+.DS_Store

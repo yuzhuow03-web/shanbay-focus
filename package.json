@@ -1,0 +1,13 @@
+{
+  "name": "shanbay-focus",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local AutoJs6 focus guard linked to Shanbay vocabulary study.",
+  "scripts": {
+    "test": "node test_focus_core.js && node test_runtime.js",
+    "check": "node --check WordGate.js && node --check FocusCore.js && node --check StartGuard.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
